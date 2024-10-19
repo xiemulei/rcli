@@ -4,7 +4,7 @@ use anyhow::Result;
 use csv::Reader;
 use serde_json::Value;
 
-use crate::opts::OutputFormat;
+use crate::cli::OutputFormat;
 
 /// 从CSV文件读取数据，处理后以JSON格式写入到输出文件
 ///
