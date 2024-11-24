@@ -19,3 +19,7 @@ zxcvbn = "3"
 base64 = "0.22"
 blake3 = "1.5.4"
 ed25519-dalek = { version = "2.1.1", features = ["rand_core"] }
+tokio = { version = "1", features = ["rt", "rt-multi-thread", "net", "macros", "fs"] }
+axum = { version = "0.7", features = ["http2", "query", "tracing"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
